@@ -4,35 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vanilla weather</title>
+    <link rel="stylesheet" href="src/index.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="search" />
-      </form>
-      <hr />
-    </header>
-    <main>
-      <div>
-        <h1>San Francisco</h1>
-        <p>
-          Wednesday 5:01, clear sky
-          <br />
-          Humidity: 91%, Wind: 3.6km/h
-        </p>
-      </div>
-      <div>12</div>
-      <hr />
-    </main>
-    <footer>
-      This code was coded by
-      <a href="https://github.com/sosena2">Sosena Gossaye</a> and is
-      <a href="https://github.com/sosena2/vanilla-weather"
-        >open sourced on Github</a
-      >
-      and hosted on
-      <a href="https://glittery-clafoutis-0cfbd4.netlify.app/">Netlify</a>
-    </footer>
+    <div class="vanilla-weather">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="input-submit" />
+        </form>
+        <hr />
+      </header>
+      <main>
+        <div class="main-class">
+          <div>
+            <div class="city">
+              <h1>San Francisco</h1>
+            </div>
+            <div class="weather-detail">
+              <p>
+                Wednesday <strong>5:01</strong>, clear sky
+                <br />
+                Humidity:<strong>91%</strong>, Wind: <strong>3.6km/h</strong>
+              </p>
+            </div>
+          </div>
+          <div class="main-temp">
+            <div class="temp-emoji">⛅</div>
+            <div class="temp-value">12</div>
+            <div class="temp-unit">&degC</div>
+          </div>
+        </div>
+        <hr />
+      </main>
+      <footer>
+        This code was coded by
+        <a href="https://github.com/sosena2">Sosena Gossaye</a> and is
+        <a href="https://github.com/sosena2/vanilla-weather"
+          >open sourced on Github</a
+        >
+        and hosted on
+        <a href="https://glittery-clafoutis-0cfbd4.netlify.app/">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
