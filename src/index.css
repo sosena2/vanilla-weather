@@ -36,7 +36,8 @@ main{
 }
 .city{
     margin: 0;
-    font-size: 20px;
+    font-size: 48px;
+    font-weight: 600;
     line-height: 28px;
 }
 .weather-detail{

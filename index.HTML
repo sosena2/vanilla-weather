@@ -9,12 +9,13 @@
   <body>
     <div class="vanilla-weather">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
             class="search-form-input"
+            id="form-input"
           />
           <input type="submit" value="search" class="input-submit" />
         </form>
@@ -23,7 +24,7 @@
       <main>
         <div class="main-class">
           <div>
-            <div class="city">
+            <div class="city" id="city">
               <h1>San Francisco</h1>
             </div>
             <div class="weather-detail">
@@ -52,5 +53,6 @@
         <a href="https://glittery-clafoutis-0cfbd4.netlify.app/">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
