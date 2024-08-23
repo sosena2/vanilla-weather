@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>vanilla weather</title>
     <link rel="stylesheet" href="src/index.css" />
   </head>
@@ -25,7 +26,7 @@
         <div class="main-class">
           <div>
             <div class="city" id="city">
-              <h1>San Francisco</h1>
+              <h1></h1>
             </div>
             <div class="weather-detail">
               <p>
@@ -37,7 +38,7 @@
           </div>
           <div class="main-temp">
             <div class="temp-emoji">⛅</div>
-            <div class="temp-value">12</div>
+            <div class="temp-value" id="temp-value"></div>
             <div class="temp-unit">&degC</div>
           </div>
         </div>
