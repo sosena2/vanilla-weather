@@ -17,10 +17,11 @@ function updateWeather(response){
     windSpeedElement.innerHTML=`${response.data.wind.speed}km/h`;
 
     let timeElement = document.querySelector("#time");
-    
     let date = new Date(response.data.time * 1000);
     timeElement.innerHTML = formatDate(date);
-    
+
+    let iconElement = document.querySelector("#temp-emoji");
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="temp-emoji" />`;
 
 }
 

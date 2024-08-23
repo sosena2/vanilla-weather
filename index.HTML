@@ -30,17 +30,22 @@
             </div>
             <div class="weather-detail">
               <p>
-                <span id="time"></span>,
+                <span class="time" id="time"></span>,
                 <span id="weather-description"></span>
                 <br />
-                Humidity:<span id="humidity"></span>, Wind:<span
-                  id="wind-speed"
-                ></span>
+                Humidity:<span class="humidity" id="humidity"></span>,
+                Wind:<span class="wind-speed" id="wind-speed"></span>
               </p>
             </div>
           </div>
           <div class="main-temp">
-            <div class="temp-emoji">⛅</div>
+            <div id="temp-emoji">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+                alt=""
+                class="temp-emoji"
+              />
+            </div>
             <div class="temp-value" id="temp-value"></div>
             <div class="temp-unit">&degC</div>
           </div>

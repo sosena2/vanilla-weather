@@ -46,7 +46,10 @@ main{
     line-height: 24px;
     font-weight: 500;
 }
-strong{
+.wind-speed{
+    color: #680747;
+}
+.humidity{
     color: #680747;
 }
 .main-temp{
