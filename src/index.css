@@ -68,3 +68,25 @@ main{
     margin-top: 6px;
     font-size: 28px;
 }
+.weather-forecast{
+    display: flex;
+}
+.weather-forecast-day{
+    text-align: center;
+    color:#222831;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.weather-forecast-icon {
+    text-align: center;
+}
+.weather-forecast-values{
+    text-align: center;  
+    color: #680747;
+    display: flex;
+    justify-content: center;
+}
+.weather-forecast-value{
+    padding: 0 10px;
+}
